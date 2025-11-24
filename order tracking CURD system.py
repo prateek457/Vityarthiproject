@@ -53,8 +53,6 @@ CREATE TABLE IF NOT EXISTS order_items (
 );
 """
 
-# --- UTILITY FUNCTIONS ---
-
 def format_currency(amount: float) -> str:
     """Formats a float as a currency string."""
     return f"${amount:,.2f}"
